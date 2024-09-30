@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilocalc.css">
+</head>
+<body id="corpo">
+
+    <nav id="menu">
+        <ul>
+            <li><button id="Resident" onclick="ResidentEvil()">Resident Evil</button></li>
+            <li><button id="OnePiece" onclick="OnePieceD()">One Piece</button></li>
+            <li><button id="Normal" onclick="Normale()">Normal</button></li>
+        </ul>
+    </nav>
+    <section id="Calc">
+        <img id="Imagemgif" src="imagens/Gato.gif" width="300px" >
+        <p><div id="res">0</div></p>
+        <button id="txt1" value="1" onclick="Num1()">1</button>
+        <button id="txt2" value="2" onclick="Num2()">2</button>
+        <button id="txt3" value="3" onclick="Num3()">3</button><br>
+        <button id="txt4" value="4" onclick="Num4()">4</button>
+        <button id="txt5" value="5" onclick="Num5()">5</button>
+        <button id="txt6" value="6" onclick="Num6()">6</button><br>
+        <button id="txt7" value="7" onclick="Num7()">7</button>
+        <button id="txt8" value="8" onclick="Num8()">8</button>
+        <button id="txt9" value="9" onclick="Num9()">9</button><br>
+        <button id="txt0" value="0" onclick="Num0()">0</button>
+        <button id="txtresul" onclick="Result()">=</button><br>
+        <button id="txtreset" onclick="Limpar()">CE</button><br>
+        <button id="txtsoma" onclick="Somar()">+</button><br>
+        <button id="txtsub" onclick="Sub()">-</button><br>
+        <button id="txtmult" onclick="Mult()">x</button><br>
+        <button id="txtdiv" onclick="Div()">/</button><br>
+        <select name="historico" id="historico">
+            <option>historico</option>
+
+        </select>
+
+
+
+
+
+    </section>
+    <audio id="musica" preload="auto"></audio>
+    <script src="tesla.js"></script>
+    <script src="numeros.js"></script>
+    <script src="skins.js"></script>
+    
+</body>
+</html>
